@@ -37,7 +37,10 @@ html {
     padding: 1em;
     margin-bottom: -3em;
     border-radius: 15px;
+}
 
+.footer p a {
+    color: red;
 }
 
 .notification.is-primary {
