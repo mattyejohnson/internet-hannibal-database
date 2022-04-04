@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+html {
+    background-color: black;
+}
+
 .title {
     color: white;
     text-align: center;
@@ -30,14 +34,16 @@
     background-color: white;
 }
 
-.footer, .content {
+.content {
     background-color: white;
     color: red;
 }
 
 .footer p{
-    background-color: white;
+    background-color: #00d1b2;
+    color: white;
     margin-bottom: -15em;
+    padding: 1em;
 }
 
 .notification {
@@ -49,6 +55,4 @@
     font-weight: 700;
 
 }
-html {
-    background-color: black;
-}
+
