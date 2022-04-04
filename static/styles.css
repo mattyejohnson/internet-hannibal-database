@@ -20,6 +20,7 @@ html {
 
 .tab-color, .tab-color-4 {
     color: red;
+    font-weight: 600;
 }
 
 .tab-color-2:hover, .tab-color-3:hover {
