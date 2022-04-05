@@ -1,10 +1,12 @@
-* {
+html {
     background-color: black;
 }
 
 .title {
     color: white;
     text-align: center;
+    background-color: black;
+    padding: .25em;
 }
 
 .subtitle {
@@ -16,22 +18,56 @@
     background-color: white;
 }
 
-.is-active {
-    background-color: white;
-}
-
-.tab-color {
+.tab-color, .tab-color-4 {
     color: red;
-    background-color: white;
+    font-weight: 600;
 }
 
-.tab-color-2:hover {
-    color: red;
-    background-color: white;
+.tab-color-2:hover, .tab-color-3:hover {
+    color: black;
 }
 
-.footer, .content {
+.content {
     background-color: white;
     color: red;
 }
 
+.footer p {
+    background-color: #660d0d;
+    color: white;
+    padding: 1em;
+    margin-bottom: -3em;
+    border-radius: 15px;
+}
+
+.footer p a {
+    color: red;
+}
+
+.notification.is-primary {
+    margin-bottom: 20em;
+    padding: 3em;
+    background-color: #660d0d;
+}
+
+.notification p {
+    font-weight: 700;
+    background-color: #b53131;
+    padding: 1em;
+    border-radius: 25px;
+    box-shadow: 0 0 25px 20px #a62b2b;
+}
+
+.headerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 750px) {
+    .headerimg {
+      width: 60%;
+    }
+}
